@@ -10,5 +10,6 @@ public class TestOne {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.rameshsoft.com");
+		System.out.println("user navigated to Rameshsoft home page");
 	}
 }
